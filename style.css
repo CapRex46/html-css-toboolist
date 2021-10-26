@@ -1,7 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .container{
     width: 1200px;
 }
 
+header{
+    background: white;
+    margin: 0 auto;
+}
 p{
     font-family:'Roboto', sans-serif;
 }
@@ -11,6 +21,15 @@ p{
     font-size: 50px;
 }
 
-.centro{
-    background-color: aqua;
+body{
+    background: #F6F8F9;
+}
+
+.box1{
+    margin-top: 30px;
+    margin-left: 100px;
+    background: white;
+    border-radius: 5%;
+    width: 950px;
+    height: 850px;
 }
