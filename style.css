@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h2{
+    font-family:'Roboto', sans-serif;
+}
+
 .container{
     width: 1200px;
 }
@@ -33,3 +37,33 @@ body{
     width: 950px;
     height: 850px;
 }
+
+.box1-text{
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+.task{
+    text-align: center;
+    color: white;
+    background: #47ADF1;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    line-height: 50px
+}
+
+.task2{
+    text-align: center;
+    border: 2px lightgray solid;
+    color: lightgray;
+    background: white;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    line-height: 50px
+}
+
+
